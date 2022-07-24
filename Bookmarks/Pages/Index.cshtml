@@ -1,5 +1,21 @@
 ﻿@page
+@using Bookmarks.Models
 @model IndexModel
 @{
     ViewData["Title"] = "Bookmarks Site";
 }
+
+<div id = "allBookmarks">
+	@foreach(Bookmark bookmark in Model.Bookmark)
+	{
+		<div class = "Bookmark">
+			<a href="@bookmark.Url">@bookmark.Name</a>
+		</div>
+	}
+</div>
+<input id="newBookmarkBtn" type="button" value="NEW BOOKMARK"/>
+<div id="newBookmarkPopup">
+	<input id="nameField" type="text" placeholder="Name" /> <br />
+	<input id="urlField" type="text" placeholder="Url" /> <br />
+	<input id="addBookmarkBtn" type="button" value="ADD"/>
+</div>

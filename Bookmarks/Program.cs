@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<Bookmarks.Services.BookmarkDataService>();
 
 var app = builder.Build();
 
