@@ -9,7 +9,9 @@
 	@foreach(Bookmark bookmark in Model.Bookmark)
 	{
 		<div class = "Bookmark">
-			<a href="@bookmark.Url">@bookmark.Name</a>
+			<img src= "https://logo.clearbit.com/@bookmark.Url?size=128.jpg" height="128" width="128"/>
+			<a href="https://@bookmark.Url">@bookmark.Name</a>
+			
 		</div>
 	}
 </div>

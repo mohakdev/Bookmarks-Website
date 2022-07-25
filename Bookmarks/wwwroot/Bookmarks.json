@@ -1,10 +1,18 @@
 [
     {
         "name": "Simple Icons",
-        "URL": "https://simpleicons.org/"
+        "URL": "simpleicons.org/"
     },
     {
-        "name": "Video Compressor",
-        "URL": "https://www.freeconvert.com/video-compressor"
+        "name": "Easings.Net",
+        "URL": "easings.net/"
+    },
+    {
+        "name": "SVG Color Changer",
+        "URL": "iconscout.com/icon-editor"
+    },
+    {
+        "name": "Carbon",
+        "URL": "carbon.now.sh/"
     }
 ]
